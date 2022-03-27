@@ -8,7 +8,7 @@ export default class TitleScene extends Phaser.Scene {
 	}
 
 	create() {
-		this.titletext = this.add.bitmapText(67.5, 210, 'font', 'Tetris: Phaser Edition\nPressed ENTER to Start', 50, 1);
+		this.titletext = this.add.bitmapText(67.5, 210, 'fontwhite', 'Tetris: Phaser Edition\nPressed ENTER to Start', 50, 1);
 		this.entergameKey = this.input.keyboard.addKey('ENTER');
 
 	}
